@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Apex Android</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="DrawerMenuImageview">Imageview in drawer menu</string>
+    <string name="DrawerMenuItemImageView">ImageView for item in drawer menu</string>
+    <string name="DoelVandaag">Doel van vandaag</string>
+    <string name="StappenHome">Stappen: 1297/5000</string>
+    <string name="MedischeInfo">Medische info</string>
+    <string name="Advies">Advies</string>
+    <string name="Instellingen">Instellingen</string>
+    <string name="refresh">refreshButton</string>
+
+    <!-- Drawer Menu items -->
+    <string-array name="nav_drawer_items">
+        <item>Header</item>
+        <item>Start</item>
+        <item>Huidige metingen</item>
+        <item>Historiek</item>
+        <item>Medische info</item>
+        <item>Advies</item>
+        <item>Bericht sturen</item>
+        <item>Instellingen</item>
+    </string-array>
+
+    <!-- Sliding Menu item icons -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/logo</item>
+        <item>@drawable/home</item>
+        <item>@drawable/metingen</item>
+        <item>@drawable/historiek</item>
+        <item>@drawable/personalinfo</item>
+        <item>@drawable/advice</item>
+        <item>@drawable/bericht</item>
+        <item>@drawable/settings</item>
+    </array>
+</resources>

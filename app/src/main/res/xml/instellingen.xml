@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <PreferenceCategory
+        android:key="pref_key_lengte_en_gewicht_settings"
+        android:title="Mijn lengte en gewicht">
+        <EditTextPreference
+            android:inputType="number"
+            android:key="pref_key_lengte"
+            android:maxLength="3"
+            android:summary="Geef je lengte in"
+            android:title="Lengte (cm)" />
+        <EditTextPreference
+            android:inputType="numberDecimal"
+            android:key="pref_key_gewicht"
+            android:maxLength="4"
+            android:summary="Geef je gewicht in"
+            android:title="Gewicht (kg)" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_key_overige"
+        android:title="Overige">
+        <Preference
+            android:key="pref_key_geboortedatum"
+            android:summary="Geef je geboortedatum in"
+            android:title="Geboortedatum" />
+        <Preference
+            android:key="pref_key_consent"
+            android:summary="Geef deze app toegang om je hartslag te meten"
+            android:title="Hartslag permissie" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

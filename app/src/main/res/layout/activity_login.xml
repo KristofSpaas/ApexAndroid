@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:focusableInTouchMode="true"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:scrollbars="none"
+    tools:context="com.groep9.apex.apexandroid.Login.LoginActivity">
+
+    <TextView
+        android:id="@+id/logo_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="32sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_loginbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <!-- Email EditText -->
+        <EditText
+            android:id="@+id/input_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Username"
+            android:inputType="text"
+            android:textColor="@android:color/white"
+            android:theme="@style/loginEditTextTheme"
+            android:text="Kevin01"/>
+
+        <!-- Password EditText -->
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/Password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/white"
+            android:theme="@style/loginEditTextTheme"
+            android:text="P@ssw0rd"/>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_drawable"
+            android:padding="12dp"
+            android:text="@string/Login"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</RelativeLayout>
+

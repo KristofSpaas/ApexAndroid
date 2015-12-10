@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3B5998</color>
+    <color name="colorPrimaryDark">#2f4779</color>
+    <color name="colorAccent">#448AFF</color>
+
+    <color name="transparent_button">#33FFFFFF</color>
+    <color name="transparent_text">#AAFFFFFF</color>
+
+    <color name="background_color_app">#DDD</color>
+
+    <color name="default_text_color">#212121</color>
+</resources>
